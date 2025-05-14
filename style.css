@@ -82,3 +82,64 @@ footer {
   background: #f2f2f2;
   font-size: 14px;
 }
+.navbar {
+  background-color: #a30000;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.profile-card {
+  text-align: center;
+  background: #f5f5f5;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.details-box {
+  max-width: 500px;
+  width: 100%;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.details-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.details-box li {
+  font-size: 1.1rem;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
