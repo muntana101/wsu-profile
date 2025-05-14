@@ -1,69 +1,63 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Student Profile</title>
+  <title>Student Results | WSU</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <div class="logo">WESTERN SYDNEY<br><span>UNIVERSITY</span></div>
-    <nav>
-      <a href="index.html">Home</a>
+  <header class="main-header">
+    <div class="logo">WESTERN SYDNEY <span>UNIVERSITY</span></div>
+    <nav class="navbar">
+      <a href="index.html">Dashboard</a>
+      <a href="#">Units</a>
+      <a href="#">Timetable</a>
+      <a href="profile.html">Results</a>
+      <a href="#">Settings</a>
     </nav>
   </header>
 
-  <main>
-    <h1>Muntaha Barud – Student Profile</h1>
-    <p><strong>Student ID:</strong> 19876543</p>
-    <p><strong>Course:</strong> Bachelor of Education (Primary)</p>
-    <h2>Semester 1 Results – 2025</h2>
-
-    <table>
-      <tr>
-        <th>Unit Code</th>
-        <th>Unit Name</th>
-        <th>Mark (%)</th>
-        <th>Grade</th>
-        <th>Letter Grade</th>
-        <th>Status</th>
+  <section class="dashboard">
+    <h1>Semester 1, 2025 Results</h1>
+    <table style="width:100%; margin-top: 20px; border-collapse: collapse;">
+      <tr style="background-color: #990000; color: white;">
+        <th style="padding: 10px; border: 1px solid #ccc;">Subject Code</th>
+        <th style="padding: 10px; border: 1px solid #ccc;">Subject Name</th>
+        <th style="padding: 10px; border: 1px solid #ccc;">Grade</th>
+        <th style="padding: 10px; border: 1px solid #ccc;">Mark</th>
       </tr>
       <tr>
-        <td>102629</td>
-        <td>Sociology for Educators</td>
-        <td>68.0</td>
-        <td>C</td>
-        <td>B</td>
-        <td>Passed</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">102629</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">Sociology for Educators</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">B</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">73</td>
+      </tr>
+      <tr style="background-color: #f9f9f9;">
+        <td style="padding: 10px; border: 1px solid #ccc;">102794</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">Literacy & Numeracy</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">A</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">83</td>
       </tr>
       <tr>
-        <td>102794</td>
-        <td>Literacy and Numeracy</td>
-        <td>83.0</td>
-        <td>D</td>
-        <td>B+</td>
-        <td>Passed</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">102209</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">Scientific Discovery</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">B</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">76</td>
       </tr>
-      <tr>
-        <td>102209</td>
-        <td>Scientific Discovery</td>
-        <td>81.5</td>
-        <td>D</td>
-        <td>B+</td>
-        <td>Passed</td>
-      </tr>
-      <tr>
-        <td>102795</td>
-        <td>Mathematics Patterns</td>
-        <td>70.0</td>
-        <td>C</td>
-        <td>B</td>
-        <td>Passed</td>
+      <tr style="background-color: #f9f9f9;">
+        <td style="padding: 10px; border: 1px solid #ccc;">102795</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">Maths Patterns</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">A</td>
+        <td style="padding: 10px; border: 1px solid #ccc;">81.5</td>
       </tr>
     </table>
-  </main>
+
+    <div style="margin-top: 30px;">
+      <p><strong>GPA:</strong> 5.8</p>
+      <p><strong>Status:</strong> Satisfactory</p>
+    </div>
+  </section>
 
   <footer>
     <p>© 2025 Western Sydney University | Student Edition</p>
