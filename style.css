@@ -1,149 +1,4 @@
-body {
-  margin: 0;
-  font-family: "Segoe UI", Arial, sans-serif;
-  background: #f5f5f5;
-  color: #333;
-}
-
-.main-header {
-  background-color: #990000;
-  color: white;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.logo {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.logo span {
-  display: block;
-  font-size: 12px;
-  font-weight: normal;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.navbar a:hover {
-  text-decoration: underline;
-}
-
-.dashboard {
-  max-width: 800px;
-  margin: 50px auto;
-  background: white;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.dashboard h1 {
-  font-size: 26px;
-  color: #990000;
-  margin-bottom: 10px;
-}
-
-.dashboard p {
-  font-size: 16px;
-  margin: 5px 0;
-}
-
-.cta {
-  margin-top: 20px;
-}
-
-.button {
-  background: #990000;
-  color: white;
-  padding: 12px 25px;
-  text-decoration: none;
-  border-radius: 4px;
-  font-weight: bold;
-}
-
-.button:hover {
-  background: #b30000;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #f2f2f2;
-  font-size: 14px;
-}
-.navbar {
-  background-color: #a30000;
-  color: white;
-  padding: 15px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar .nav-links a {
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-  font-weight: bold;
-}
-
-.profile-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px 20px;
-}
-
-.profile-card {
-  text-align: center;
-  background: #f5f5f5;
-  padding: 30px;
-  border-radius: 15px;
-  max-width: 400px;
-  width: 100%;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin-bottom: 30px;
-}
-
-.profile-img {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 20px;
-}
-
-.details-box {
-  max-width: 500px;
-  width: 100%;
-  background: #ffffff;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.details-box ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.details-box li {
-  font-size: 1.1rem;
-  padding: 10px 0;
-  border-bottom: 1px solid #ddd;
-}
-/* --- GLOBAL RESET --- */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -153,11 +8,12 @@ footer {
 body, html {
   font-family: 'Segoe UI', sans-serif;
   height: 100%;
+  background-color: #f8f8f8;
 }
 
-/* --- LANDING PAGE HERO --- */
+/* Landing Page Hero Section */
 .hero {
-  background-image: url('western-sydney.jpg'); /* replace with real image */
+  background-image: url('western-sydney.jpg'); /* Make sure your image is named exactly this */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -216,7 +72,7 @@ body, html {
   cursor: pointer;
 }
 
-/* --- NAVBAR --- */
+/* Profile Page Navbar */
 .navbar {
   background-color: #a30000;
   color: white;
@@ -233,7 +89,7 @@ body, html {
   font-weight: bold;
 }
 
-/* --- PROFILE PAGE --- */
+/* Profile Page Container */
 .profile-container {
   display: flex;
   flex-direction: column;
@@ -278,8 +134,4 @@ body, html {
   font-size: 1.1rem;
   padding: 10px 0;
   border-bottom: 1px solid #ddd;
-}
-.hero {
-  background-image: url('western-sydney.jpg');
-  /* rest of the styles… */
 }
