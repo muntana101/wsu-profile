@@ -1,0 +1,96 @@
+style.css
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #990000;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.logo span {
+  font-weight: normal;
+  font-size: 14px;
+  display: block;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: #e6e6e6;
+}
+
+.hero h1 {
+  color: #990000;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero .button {
+  background: #990000;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.notice {
+  padding: 20px;
+  background: #f0f0f0;
+  font-size: 14px;
+}
+
+.notice a {
+  color: #990000;
+  text-decoration: underline;
+}
+
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+table th {
+  background-color: #990000;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f2f2f2;
+  font-size: 14px;
+}
