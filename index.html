@@ -2,34 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Western Sydney University | Student Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome | Western Sydney University</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="main-header">
-    <div class="logo">WESTERN SYDNEY <span>UNIVERSITY</span></div>
-    <nav class="navbar">
-      <a href="index.html">Dashboard</a>
-      <a href="#">Units</a>
-      <a href="#">Timetable</a>
-      <a href="profile.html">Results</a>
-      <a href="#">Settings</a>
-    </nav>
-  </header>
-
-  <section class="dashboard">
-    <h1>Welcome, Muntaha Barud</h1>
-    <p><strong>Student ID:</strong> 19876543</p>
-    <p><strong>Course:</strong> Bachelor of Education (Primary)</p>
-    <p><strong>Current Semester:</strong> Semester 1, 2025</p>
-    <div class="cta">
-      <a class="button" href="profile.html">View My Results</a>
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Welcome to Western Sydney University</h1>
+      <p>Your personalized student portal</p>
+      <div class="login-box">
+        <h2>Login</h2>
+        <!-- Simulated login inputs -->
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <button onclick="window.location.href='profile.html'; return false;">Login</button>
+      </div>
     </div>
-  </section>
-
-  <footer>
-    <p>© 2025 Western Sydney University | Student Edition</p>
-  </footer>
+  </div>
 </body>
 </html>
