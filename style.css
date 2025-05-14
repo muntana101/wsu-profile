@@ -279,3 +279,7 @@ body, html {
   padding: 10px 0;
   border-bottom: 1px solid #ddd;
 }
+.hero {
+  background-image: url('western-sydney.jpg');
+  /* rest of the styles… */
+}
